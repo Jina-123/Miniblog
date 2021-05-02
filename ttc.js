@@ -5,7 +5,7 @@ var button = document.getElementById("click");
 button.onclick = function() {
     count += 1;
     
-    // transforme l'int en str pour pouvoir récupérer chaque chiffre du nombre.
+    // transforme l'int en str pour pouvoir récupérer chaque chiffre du nombre..
     count_str = count.toString()
 
     if (count < 10) {
